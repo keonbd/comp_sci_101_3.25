@@ -1,0 +1,8 @@
+inp = input()
+
+while inp != 'done' and inp !='d' and inp != 'Done':
+    out =''
+    for stri in reversed(inp):
+        out += stri
+    print(out)
+    inp = input()
